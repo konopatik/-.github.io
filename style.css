@@ -1,0 +1,279 @@
+body {
+    margin: 0;
+    background: #EEEFF1;
+  }
+  a {
+    text-decoration: none; 
+    color: #000000; 
+  }
+  .logoImg{
+    position: relative;
+    width: 20%;
+    height: auto;
+    object-fit: contain;
+    padding-left: 3%;
+    transition: transform 3s;
+    animation: animate__backInLeft 2s 1;
+  }
+  .container1{
+    display: flex;
+    justify-content: space-around;
+    background-color: #323232;
+    color: white;
+    height: 20px;
+    padding: 20px;
+  }
+  .cvet1{
+    background: #33D7C9;
+  }
+  .cvet2{
+    background: #0D7377;
+  }
+  input{
+    font-family: 'Comfortaa', cursive;
+  }
+  input:focus{
+    background-color: #33D7C9;
+  }
+  .poisk1{
+    display: flex;
+    height: 35px;
+    padding-top: 45px;
+    padding-right: 55px;
+  }
+  .menu{
+    font-family: 'Rosario';
+    color: white;
+  }
+   /*мэйн*/
+   .posters{
+    background-color: #0D7377;
+    padding-top: 90px;
+  }
+  
+  /*блоки*/
+  .firstblock{
+    width: 85%;
+    height: 80%;
+    padding: 20px;
+  }
+  .secondblock{
+    width: 85%;
+    height: 80%;
+    padding: 20px;
+  }
+  .holodilnik{
+    width: 80%;
+    height: 80%;
+    padding: 20px;
+  }
+  
+  .hitp{
+    font-family: 'Rosario', sans-serif;
+    padding-left: 50px;
+  }
+  .line{
+    width: 100%;
+    height: 2px;
+    background-color: #000000 ;
+  }
+  
+  .blocks{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .airpods{
+    width: 200px;
+    height: 250px;
+    padding: 47.5px;
+  }
+  .chainik{
+    width: 200px;
+    height: 250px;
+    padding: 47.5px;
+  }
+  .vertolet{
+    width: 200px;
+    height: 250px;
+    padding: 47.5px;
+  }
+  .samsunga51{
+    width: 200px;
+    height: 250px;
+    padding: 47.5px;
+  }
+  .blockcuberpank{
+    width: 240px;
+    height: 310px;
+    padding: 47.5px;
+  }
+  .iphone13block{
+    width: 97%;
+    height: 100%;
+    padding: 20px;
+  }
+  .chainik2{
+    width: 200px;
+    height: 250px;
+    padding: 52.4px;
+  }
+  .xbox{
+    width: 200px;
+    height: 250px;
+    padding: 52.4px;
+  }
+  .realme6{
+    width: 200px;
+    height: 250px;
+    padding: 52.4px;
+  }
+  .lite10{
+    width: 200px;
+    height: 250px;
+    padding: 52.4px;
+  }
+  .intel{
+    width: 200px;
+    height: 250px;
+    padding: 52.4px;
+  }
+  
+  .texst{
+    padding-left: 60px;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 15px; 
+  }
+  
+  /*блок холодоса*/
+
+  .carousel {
+    position: relative;
+    width: 500px;
+    padding: 10px 40px;
+}
+  
+.carousel img {
+    width: 500px;
+    height: 500px;
+    /* делаем этот элемент блочным, чтобы убрать лишнее пространство вокруг картинок */
+    display: block;
+}
+  .test img {
+      width: 40px;
+      height: 40px;
+  }
+  .arrow {
+    position: absolute;
+    top: 47%;     /* располагаем стрелки примерно посередине карусели */
+    padding: 2px;
+    font-size: 18px;
+    color: #000;
+    display: block;
+  }
+  
+  .arrow:hover {
+    background-color: orange;
+  }
+  
+  .prev {
+    left: 7px;
+  }
+  
+  .next {
+    right: 7px;
+  }
+  
+  .gallery {
+    width: 500px;
+    overflow: hidden;
+  }
+  
+  .gallery ul {
+    height: 500px;
+    width: 9999px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transition: margin-left 200ms;
+    /* удаляем пустое пространство между элементами li, у которых установлен inline-block */
+    font-size: 0;
+  }
+  
+  .gallery li {
+    display: inline-block;
+  }
+
+  .holodilnik1{
+    width: 500px;
+    height: 500px;
+    padding-left: 50px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px; 
+  }
+  .headlogo{
+    display: flex;
+    justify-content: space-between;
+  }
+  .poisk{
+    display: flex;
+      height: 35px;
+      padding-top: 45px;
+      padding-right: 55px;
+  }
+  .holodilniktexst{
+    font-family: 'Rosario', sans-serif;
+  }
+  .buy{
+    width: 400px;
+    height: 60px;
+    background-color: teal;
+    color: white;
+  }
+  .holodostexst {
+      margin-left: 70px;
+  }
+  /*карта*/
+  .adresa{
+    padding-left: 215px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px; 
+  }
+  .texstcart{
+    font-family: 'Rosario', sans-serif;
+    padding-left: 215px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+  }
+  
+  .uvelit{
+    width: 160px;
+    height: 70px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  footer{
+      background-color: #323232;
+      padding: 20px;
+  }
+  .bigggfoter{
+    display: flex;
+    justify-content: space-between;
+  }
+  .aF {
+      color: #b2b2b2;
+      font-family: 'Open Sans', sans-serif;
+      text-decoration: none;
+      font-size: 14px;
+  }
+  .pF{
+      color: #b2b2b2;
+      padding-left: 5px;
+  }
+  
